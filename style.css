@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;    /*jitni b padding ya border width add hui h vo element k ht. n wt. me include ho jaaye*/
+
+}
+.nav-bar{
+    height: 60px;
+    background-color: #dee4e4;
+    color: rgb(14, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*box-1*/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid black;
+}
+
+/*box-2*/
+.add-first{
+    color: #2c1e1e;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: #0c0b0b;
+    font-size: 1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+/*box-3*/
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius:3px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    border-top-left-radius:3px;
+    border-bottom-left-radius: 3px;
+    background-color: #868484;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem
+}
+/*box-4,5*/
+span{
+    font-size: 0.80rem;
+}
+.nav-second{
+    font-size: 0.85 rem;
+    font-weight: 700;
+}
+/*box-6*/
+.nav-cart{
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.nav-cart i{
+    font-size: 30px;
+}
